@@ -30,7 +30,7 @@
 $(document).ready(function(){
     $("#sbutton").click(function(){
         s1 = $("#myInput").val();
-        $("#result").load("s_C.php");  
+        $("#result").load("s_C.php?search=" + s1 );  
     });
 });
 </script>
